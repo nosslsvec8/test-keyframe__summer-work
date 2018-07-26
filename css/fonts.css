@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'GothaProBol'; /* Имя шрифта */
+    src: url(../fonts/GothaProBol.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'GothaProLig'; /* Имя шрифта */
+    src: url(../fonts/GothaProLig.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'BlenderPro-Bold'; /* Имя шрифта */
+    src: url(../fonts/BlenderPro-Bold.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'BlenderPro-Book'; /* Имя шрифта */
+    src: url(../fonts/BlenderPro-Book.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Arame'; /* Имя шрифта */
+    src: url(../fonts/Arame.ttf); /* Путь к файлу со шрифтом */
+}

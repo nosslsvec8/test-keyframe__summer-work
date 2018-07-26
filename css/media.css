@@ -1,0 +1,26 @@
+/* lg */
+@media (max-width: 1200px){
+
+}
+
+/* md */
+@media (max-width: 992px){
+	.main-page__header{
+        display: none;
+    }
+}
+
+/* sm */
+@media (max-width: 768px){
+	
+}
+
+/* xs */
+@media (max-width: 576px){
+
+}
+
+/* до 320 или 300, айфоны */
+@media (max-width: 480px){
+
+}
