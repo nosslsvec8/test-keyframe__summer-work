@@ -179,6 +179,11 @@ a,a:hover,a:visited,a:link{
     padding: 15px 42px;
 }
 
+.modal-registration__modal-button-registration:hover{
+    cursor: pointer;
+    color: #1b92c4;
+}
+
 .modal-registration__modal-button-enter{
     color: #fbf2f8;
     font-size: 12px;
