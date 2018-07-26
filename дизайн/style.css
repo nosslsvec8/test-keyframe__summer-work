@@ -10,10 +10,19 @@ a,a:hover,a:visited,a:link{
 
 /* xl */
 .main-page{
+    /*background: url("../дизайн/all_new_main.png") no-repeat;*/
+    /*width: 1920px;*/
+    /*height: 1085px;*/
+    /*background-size: contain;*/
+
     padding: 57px 0 200px 170px;
     color: #fbf2f8;
     background: url("../images/main-bg.png") no-repeat;
     background-size: cover;
+}
+
+.main-page > * {
+    /*opacity: 0.8;*/
 }
 
 .main-page__content{
@@ -42,22 +51,15 @@ a,a:hover,a:visited,a:link{
 }
 
 .main-page__form-view-button{
-    background: linear-gradient(to left, #a05fe0, #7337e6);;
+    background: linear-gradient(to left, #7337e6, #27283d);;
     margin: 86px 0 0 22px;
     padding: 21px 59px;
     letter-spacing: 1.5px;
     border: none;
     outline: none;
     border-radius: 5px;
-    /*border: 1px solid #a05fe0;*/
     font-size: 18px;
     font-family: 'GothaProLig';
-    color: #ffffff;
-}
-
-.main-page__form-view-button:hover{
-    cursor: pointer;
-    color: #1b92c4;
 }
 
 .main-page__header{

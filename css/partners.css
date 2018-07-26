@@ -1,0 +1,31 @@
+.partners-page{
+    padding: 65px 0 200px 190px;
+    background: url("../images/partners-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.main-page{
+    /*background: url("../дизайн/all_new_partners.png") no-repeat;*/
+    /*width: 1920px;*/
+    /*height: 1085px;*/
+    /*background-size: contain;*/
+}
+
+.main-page > * {
+    /*opacity: 0.8;*/
+}
+
+.partners-page .main-page__form-view {
+     padding: 128px 0 0 62px;
+}
+
+.partners-page .main-page__form-view-button {
+    /*background: transparent;*/
+    margin: 75px 0 0 132px;
+    padding: 25px 53px;
+    color: #a96dea;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /*border: 1px solid linear-gradient(to left, #a05fe0, #7337e6);*/
+    /*outline: 1px solid linear-gradient(to left, #a05fe0, #7337e6);*/
+}
