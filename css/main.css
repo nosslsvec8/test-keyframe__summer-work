@@ -57,14 +57,13 @@ a,a:hover,a:visited,a:link{
 }
 
 .main-page__form-view-button{
-    background: linear-gradient(to left, #a05fe0, #7337e6);;
+    background: linear-gradient(to left, #a05fe0, #7337e6);
     margin: 86px 0 0 22px;
     padding: 21px 59px;
     letter-spacing: 1.5px;
     border: none;
     outline: none;
     border-radius: 5px;
-    /*border: 1px solid #a05fe0;*/
     font-size: 18px;
     font-family: 'GothaProLig';
     color: #ffffff;
@@ -113,4 +112,89 @@ a,a:hover,a:visited,a:link{
     width: auto;
     max-width: 100%;
     max-height: 100%;
+}
+
+.modal-registration.modal.fade{
+    padding-top: 10%;
+}
+
+.modal-registration .modal-dialog{
+    background: #27283d;
+    color: #fff;
+    width: 730px;
+    max-width: 730px;
+}
+
+.modal-registration .modal-content{
+    background: transparent;
+    padding-left: 67px;
+    padding-right: 25px;
+}
+
+.modal-registration .modal-header{
+    border: none;
+    padding: 23px 0 0 0;
+    margin: 0;
+}
+
+.modal-registration .modal-title{
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'GothaProBol';
+    padding-top: 27px;
+    padding-bottom: 40px;
+}
+
+.modal-registration .close{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'GothaProLig';
+}
+
+.modal-registration .modal-body{
+    padding: 0 40px 0 0;
+    margin: 0;
+}
+
+.modal-registration-input{
+    font-size: 12px;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    border: 1px solid #a05de6;
+    background: transparent;
+    width: 100%;
+    font-family: 'GothaProLig';
+    color: #fff;
+}
+
+.modal-registration-input::placeholder{
+    color: #fff;
+}
+
+.modal-registration .modal-footer{
+    border: none;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 0 65px 0;
+    margin: 0;
+}
+
+.modal-registration__modal-button-registration{
+    color: #fff;
+    font-size: 15px;
+    background: linear-gradient(to left, #a05fe0, #7337e6);
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding: 15px 42px;
+}
+
+.modal-registration__modal-button-enter{
+    color: #fbf2f8;
+    font-size: 12px;
+    background: transparent;
+    letter-spacing: 1px;
+    border: none;
+    text-decoration:underline
 }

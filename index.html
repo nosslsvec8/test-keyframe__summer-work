@@ -22,7 +22,8 @@
   <meta name="theme-color" content="#ffffff">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description" content="JustCash – уникальная платформа для майнинга таких криптовалют, как Bitcoin, Dogecoin, Litecoin, Ethereum, Zcash или USD.">
+  <meta name="Description" content="JustCash – уникальная платформа для майнинга таких криптовалют,
+    как Bitcoin, Dogecoin, Litecoin, Ethereum, Zcash или USD.">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
@@ -38,7 +39,7 @@
     <div class="main-page__logo">
       <img src="images/head-logo.png" alt="Logo-site">
     </div>
-    <form class="main-page__form-view" action="">
+    <div class="main-page__form-view">
       <h1 class="main-page__form-view-head">
         JUSTCASH<br> COMP.
       </h1>
@@ -63,10 +64,10 @@
         партнёром, а так же вы получите 5 Gh/s за каждого партнёра,<br>
         который прошёл регистрацию.
       </p>
-      <button class="main-page__form-view-button" data-toggle="modal" data-target="#exampleModal">
+      <button class="main-page__form-view-button" data-toggle="modal" data-target="#modal-registration">
         Регистрация
       </button>
-    </form>
+    </div>
   </div>
   <!-- header -->
   <header class="main-page__header">
@@ -81,32 +82,60 @@
     </div>
   </header>
   <!-- header end -->
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Modal-registration -->
+  <div class="modal fade modal-registration" id="modal-registration" tabindex="-1" role="dialog"
+       aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Регистрация</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+          <input class="modal-registration-input" placeholder="Логин пользователя" type="text" id="registration-login">
+          <input class="modal-registration-input" placeholder="E-mail" type="email" id="registration-email">
+          <input class="modal-registration-input" placeholder="Пароль" type="password" id="registration-password">
+          <input class="modal-registration-input" placeholder="Подтверждение пароля" type="password" id="registration-password-copu">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn modal-registration__modal-button-registration" data-dismiss="modal">Регистрация</button>
+          <button type="button" class="btn modal-registration__modal-button-enter" data-dismiss="modal"
+                  data-toggle="modal" data-target="#modal-entrance">Войти</button>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal end -->
+  <!-- Modal-registration end -->
+  <!-- Modal-registration -->
+  <div class="modal fade modal-registration" id="modal-entrance" tabindex="-1" role="dialog"
+       aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input class="modal-registration-input" placeholder="E-mail" type="email" id="entrance-email">
+          <input class="modal-registration-input" placeholder="Пароль" type="password" id="entrance-password">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn modal-registration__modal-button-registration" data-dismiss="modal">Войти</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-registration end -->
 </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/fontawesome-all.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>-->
   <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>-->
