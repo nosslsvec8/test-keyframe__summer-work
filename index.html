@@ -25,6 +25,7 @@
   <meta name="Description" content="JustCash – уникальная платформа для майнинга таких криптовалют, как Bitcoin, Dogecoin, Litecoin, Ethereum, Zcash или USD.">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/main.css">
@@ -62,11 +63,12 @@
         партнёром, а так же вы получите 5 Gh/s за каждого партнёра,<br>
         который прошёл регистрацию.
       </p>
-      <button class="main-page__form-view-button" data-toggle="modal" data-target="modal_register">
+      <button class="main-page__form-view-button" data-toggle="modal" data-target="#exampleModal">
         Регистрация
       </button>
     </form>
   </div>
+  <!-- header -->
   <header class="main-page__header">
     <div class="main-page__header-links">
       <a class="main-page__header-item" href="index.html">старт</a>
@@ -78,33 +80,35 @@
       <img class="main-page__header-background-img" src="images/menu-panel.png" alt="Menu images, panel">
     </div>
   </header>
-  <!--<div id="modal_register" class="modal">-->
-    <!--<div class="modal-dialog">-->
-      <!--<div class="modal-content">-->
-        <!--<div class="modal-header">-->
-          <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>-->
-          <!--<h4 class="modal-title">Заголовок модального окна</h4>-->
-        <!--</div>-->
-        <!--<div class="modal-body">-->
-          <!--Содержимое модального окна...-->
-        <!--</div>-->
-        <!--<div class="modal-footer">-->
-          <!--<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>-->
-          <!--<button type="button" class="btn btn-primary">Сохранить изменения</button>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
+  <!-- header end -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
 </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/fontawesome-all.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-        crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>-->
+  <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>-->
 </body>
 </html>
