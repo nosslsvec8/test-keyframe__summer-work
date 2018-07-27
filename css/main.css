@@ -79,6 +79,7 @@ a,a:hover,a:visited,a:link{
     padding: 146px 37px 0 0;
     display: flex;
     justify-content: flex-end;
+    z-index: 10;
 }
 
 .main-page__header-links{
@@ -87,6 +88,7 @@ a,a:hover,a:visited,a:link{
     justify-content: space-evenly;
     height: auto;
     padding: 20px 0;
+    z-index: 10;
 }
 
 .main-page__header-item{
@@ -97,6 +99,7 @@ a,a:hover,a:visited,a:link{
     letter-spacing: 1px;
     color: #ffe1f4;
     display: block;
+    z-index: 10;
 }
 
 .main-page__header-background{
@@ -104,6 +107,7 @@ a,a:hover,a:visited,a:link{
     width: auto;
     max-width: 100%;
     max-height: 100%;
+    z-index: 10;
 }
 
 .main-page__header-background-img{
@@ -242,8 +246,9 @@ a,a:hover,a:visited,a:link{
 
 .about-page {
     padding: 42px 0 200px 217px;
-    background: url("../images/about-bg.png") no-repeat;
+    background: url("../images/partners-bg.png") no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .about-page .main-page__form-view {
@@ -256,4 +261,42 @@ a,a:hover,a:visited,a:link{
 
 .about-page .main-page__header {
     padding: 160px 37px 0 0;
+}
+
+.falling-object {
+    position: absolute;
+    top: 230px;
+    left: 900px;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-name: falling-object ;
+    -webkit-animation-name: falling-object ;
+    animation-name: falling-object ;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.falling-object__falling-object-room{
+    width: auto;
+    height: auto;
+}
+
+@-webkit-keyframes falling-object {
+    from {top: 0;}
+    to {top:230px;}
+}
+
+@-moz-keyframes slidein {
+    from {top: 0;}
+    to {top:230px;}
+}
+
+@keyframes falling-object {
+    from {top: 0;}
+    to {top:230px;}
 }
