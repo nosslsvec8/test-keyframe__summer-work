@@ -11,17 +11,17 @@
     }
 
     @-webkit-keyframes falling-object {
-        from {top: 0;}
+        from {top: -600px;}
         to {top:330px;}
     }
 
     @-moz-keyframes falling-object {
-        from {top: 0;}
+        from {top: -600px;}
         to {top:330px;}
     }
 
     @keyframes falling-object {
-        from {top: 0;}
+        from {top: -600px;}
         to {top:330px;}
     }
 }

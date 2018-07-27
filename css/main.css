@@ -281,22 +281,27 @@ a,a:hover,a:visited,a:link{
     animation-direction: alternate;
 }
 
+.falling-object-room{
+    top: 210px;
+    left: 790px;
+}
+
 .falling-object__falling-object-room{
     width: auto;
     height: auto;
 }
 
 @-webkit-keyframes falling-object {
-    from {top: 0;}
+    from {top: -600px;}
     to {top:230px;}
 }
 
 @-moz-keyframes falling-object {
-    from {top: 0;}
+    from {top: -600px;}
     to {top:230px;}
 }
 
 @keyframes falling-object {
-    from {top: 0;}
+    from {top: -600px;}
     to {top:230px;}
 }
