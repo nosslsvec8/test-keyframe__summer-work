@@ -284,6 +284,23 @@ a,a:hover,a:visited,a:link{
 .falling-object-room{
     top: 210px;
     left: 790px;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -moz-animation-name: falling-object-room ;
+    -webkit-animation-name: falling-object-room ;
+    animation-name: falling-object-room ;
+}
+
+.falling-object-reactor{
+    top: 210px;
+    left: 1275px;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-name: falling-object-room ;
+    -webkit-animation-name: falling-object-room ;
+    animation-name: falling-object-room ;
 }
 
 .falling-object__falling-object-room{
@@ -304,4 +321,19 @@ a,a:hover,a:visited,a:link{
 @keyframes falling-object {
     from {top: -600px;}
     to {top:230px;}
+}
+
+@-webkit-keyframes falling-object-room {
+    from {top: -600px;}
+    to {top:210px;}
+}
+
+@-moz-keyframes falling-object-room {
+    from {top: -600px;}
+    to {top:210px;}
+}
+
+@keyframes falling-object-room {
+    from {top: -600px;}
+    to {top:210px;}
 }
