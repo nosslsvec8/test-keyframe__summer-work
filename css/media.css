@@ -15,7 +15,7 @@
         to {top:330px;}
     }
 
-    @-moz-keyframes slidein {
+    @-moz-keyframes falling-object {
         from {top: 0;}
         to {top:330px;}
     }
