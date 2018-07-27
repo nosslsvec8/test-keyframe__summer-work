@@ -25,8 +25,19 @@
     .main-page__header {
         padding: 85px 35px 0 0;
     }
-    .main-page__header-background-img {
+    .main-page__header-background-img{
         height: 490px;
+    }
+    .about-page .main-page__header-background-img{
+        height: 440px;
+    }
+    .main-page__header-button {
+        padding-left: 60px;
+        width: auto;
+    }
+    .top-header {
+        top: 60px;
+        right: 50px;
     }
 }
 
