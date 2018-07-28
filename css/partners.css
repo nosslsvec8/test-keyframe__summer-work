@@ -4,17 +4,6 @@
     background-size: cover;
 }
 
-/*.main-page{*/
-    /*background: url("../дизайн/all_new_partners.png") no-repeat;*/
-    /*width: 1920px;*/
-    /*height: 1085px;*/
-    /*background-size: contain;*/
-/*}*/
-
-/*.main-page > * {*/
-    /*opacity: 0.8;*/
-/*}*/
-
 .partners-page .main-page__form-view {
      padding: 110px 0 0 55px;
 }
