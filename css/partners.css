@@ -1,19 +1,19 @@
 .partners-page{
-    padding: 56px 0 200px 173px;
+    padding: 56px 0 425px 173px;
     background: url("../images/partners-bg.png") no-repeat;
     background-size: cover;
 }
 
-.main-page{
-    background: url("../дизайн/all_new_partners.png") no-repeat;
-    width: 1920px;
-    height: 1085px;
-    background-size: contain;
-}
+/*.main-page{*/
+    /*background: url("../дизайн/all_new_partners.png") no-repeat;*/
+    /*width: 1920px;*/
+    /*height: 1085px;*/
+    /*background-size: contain;*/
+/*}*/
 
-.main-page > * {
-    opacity: 0.8;
-}
+/*.main-page > * {*/
+    /*opacity: 0.8;*/
+/*}*/
 
 .partners-page .main-page__form-view {
      padding: 110px 0 0 55px;
@@ -94,6 +94,8 @@
 
 .circles__circle-description{
     text-align: center;
+    font-size: 18px;
+    font-family: 'BlenderPro-Book';
     margin-left: -32px;
     margin-top: -40px;
     width: 270px;
@@ -122,4 +124,71 @@
 @keyframes circling {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
+}
+
+@media (max-width: 1800px){
+    .circles__circle-item_first-circle{
+        left: 64%;
+    }
+
+    .circles__circle-item_second-circle{
+        left: 50%;
+    }
+
+    .circles__circle-item_third-circle{
+        left: 75%;
+    }
+}
+
+@media (max-width: 1500px){
+    .circles__circle-item_first-circle {
+        top: 21%;
+    }
+
+    .circles__circle-item_second-circle {
+        left: 55%;
+        top: 40%;
+    }
+
+    .circles__circle-item_third-circle {
+        top: 40%;
+    }
+
+    .circles__circle-img img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .circles__circle-img h3 {
+        font-size: 28px;
+        max-width: 121px;
+        top: -75px;
+    }
+
+    .circles__circle-item_third-circle h3 {
+        font-size: 24px;
+    }
+
+    .circles__circle-description,
+    .circles__circle-item_third-circle .circles__circle-description {
+        width: 180px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1300px){
+    .circles__circle-item_first-circle {
+        top: 21%;
+        left: 69%;
+    }
+
+    .circles__circle-item_second-circle {
+        top: 40%;
+        left: 69%;
+    }
+
+    .circles__circle-item_third-circle {
+        top: 59%;
+        left: 69%;
+    }
 }
