@@ -139,28 +139,28 @@
     }
 
     .circles__circle-item_first-circle {
-        top: 26%;
+        top: 200px;
     }
 
     .circles__circle-item_second-circle {
-        left: 58%;
-        top: 62%;
+        left: 57%;
+        top: 420px;
     }
 
     .circles__circle-item_third-circle {
-        left: 72%;
-        top: 62%;
+        left: 73%;
+        top: 420px;
     }
 
     .circles__circle-img img{
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
     }
 
     .circles__circle-img h3 {
         font-size: 28px;
-        max-width: 121px;
-        top: -75px;
+        max-width: 132px;
+        top: -80px;
     }
 
     .circles__circle-item_third-circle h3 {
