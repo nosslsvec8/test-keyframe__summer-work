@@ -27,3 +27,8 @@
     font-family: 'Arame'; /* Имя шрифта */
     src: url(../fonts/Arame.ttf); /* Путь к файлу со шрифтом */
 }
+
+@font-face {
+    font-family: 'Arame-Bold'; /* Имя шрифта */
+    src: url(../fonts/Arame-Bold.ttf); /* Путь к файлу со шрифтом */
+}
