@@ -346,3 +346,54 @@ a,a:hover,a:visited,a:link{
     from {top: -600px;}
     to {top:210px;}
 }
+
+.pulsation{
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-name: pulsation ;
+    -webkit-animation-name: pulsation ;
+    animation-name: pulsation ;
+    -moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes pulsation {
+    from {
+        width: 100%;
+        padding-left: 0;
+    }
+    to {
+        width: 90%;
+        padding-left: 5%;
+    }
+}
+
+@-moz-keyframes pulsation {
+    from {
+        width: 100%;
+        padding-left: 0;
+    }
+    to {
+        width: 90%;
+        padding-left: 5%;
+    }
+}
+
+@keyframes pulsation {
+    from {
+        width: 100%;
+        padding-left: 0;
+    }
+    to {
+        width: 90%;
+        padding-left: 5%;
+    }
+}
