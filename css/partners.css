@@ -25,10 +25,13 @@
     color: #a96dea;
     font-size: 20px;
     letter-spacing: 1px;
+    transition: all 1s;
 }
 
 .partners-page .main-page__form-view-button:hover{
     color: #007bff;
+    background: url("../images/partners-button-border-hover.png") no-repeat;
+    transition: all 1s;
 }
 
 .circles{
@@ -94,6 +97,14 @@
     text-align: center;
     margin-top: -32px;
     width: 270px;
+}
+
+.circles__circle-bg{
+    position: absolute;
+}
+
+circles__circle-border{
+
 }
 
 .circling{

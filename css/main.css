@@ -66,11 +66,13 @@ a,a:hover,a:visited,a:link{
     font-size: 18px;
     font-family: 'GothaProLig';
     color: #ffffff;
+    transition: color 1s;
 }
 
 .main-page__form-view-button:hover{
     cursor: pointer;
     color: #1b92c4;
+    transition: color 1s;
 }
 
 .main-page__header{
@@ -100,6 +102,11 @@ a,a:hover,a:visited,a:link{
     color: #ffe1f4;
     display: block;
     z-index: 10;
+    transition: color 1s;
+}
+
+.main-page__header-item:hover{
+    transition: color 1s;
 }
 
 .main-page__header-background{
@@ -218,6 +225,7 @@ a,a:hover,a:visited,a:link{
     font-size: 16px;
     font-family: 'GothaProMed';
     padding-left: 29px;
+    transition: all 1s;
 }
 
 .main-page__header-button{
@@ -236,6 +244,7 @@ a,a:hover,a:visited,a:link{
 .main-page__header-button:hover{
     cursor: pointer;
     color: #0056b3;
+    transition: all 1s;
 }
 
 .main-page__header-button:visited,
