@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>JUSTCASH COMP. Bitcoin. Dogecoin. Litecoin. Ethereum. Zcash</title>
+  <title>Калькулятор</title>
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="57x57" href="images/head-icon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="images/head-icon/apple-icon-60x60.png">
@@ -29,61 +29,34 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/calculator.css">
 </head>
 <body>
 
-<div class="main-page">
+<div class="main-page calculator-page">
   <div class="main-page__content">
-    <div class="main-page__logo">
+    <div class="main-page__logo main-page__logo_red-logo">
       <a href="#">
         <img src="images/head-logo.png" alt="Logo-site">
       </a>
     </div>
     <div class="main-page__form-view">
       <h1 class="main-page__form-view-head">
-        JUSTCASH<br> COMP.
+        КАЛЬКУЛЯТОР
       </h1>
       <p class="main-page__form-view-text">
-        JustCash – уникальная платформа для майнинга таких<br>
-        криптовалют, как Bitcoin, Dogecoin, Litecoin, Ethereum,<br>
-        Zcash или USD.
+        Используя калькулятор вы можете просчитать свою точную прибыль
       </p>
-      <p class="main-page__form-view-text">
-        Зарабатывайте от
-        <span class="main-page__form-view-text-bold">1%</span> до
-        <span class="main-page__form-view-text-bold">7%</span> в сутки добывая любую<br>
-        из представленных крипто валют.
-      </p>
-      <p class="main-page__form-view-text">
-        Получайте бонус при регистрации в размере <span class="main-page__form-view-text-bold">200 Gh/s</span> и<br>
-        приступайте к добыче!
-      </p>
-      <p class="main-page__form-view-text">
-        Приглашайте своих партнёров и получайте отличные реферальные<br>
-        начисления в размере 12% и 5% от мощности, приобретённой<br>
-        партнёром, а так же вы получите 5 Gh/s за каждого партнёра,<br>
-        который прошёл регистрацию.
-      </p>
-      <button class="main-page__form-view-button" data-toggle="modal" data-target="#modal-registration">
-        Регистрация
-      </button>
     </div>
   </div>
-  <div class="falling-object falling-object-room">
-    <img src="images/main-factory.png" alt="Фабрика" class="falling-object__falling-object-room main-page__animation">
+  <!-- top-header -->
+  <div class="top-header">
+    <button class="main-page__header-button" data-toggle="modal" data-target="#modal-entrance" title="Войти">
+      Войти
+      <img src="images/img-войти.png" alt="Войти">
+    </button>
   </div>
-  <!-- lightning__graph -->
-  <div class="lightning lightning__graph lightning__graph-border"></div>
-  <div class="lightning lightning__graph lightning__graph-top-line"></div>
-  <div class="lightning lightning__graph lightning__graph-bottom-line"></div>
-  <!-- lightning__end -->
-  <div class="falling-object falling-object-reactor">
-    <img src="images/main-reactor.png" alt="Реактор" class="falling-object__falling-object-room main-page__animation">
-  </div>
-  <!-- lightning__reactor -->
-  <div class="lightning lightning__reactor lightning__reactor-top-left-lightning"></div>
-  <div class="lightning lightning__reactor lightning__reactor-top-right-lightning"></div>
-  <!-- lightning__reactor end -->
+  <!-- top-header end -->
   <!-- header -->
   <header class="main-page__header">
     <div class="main-page__header-links">
@@ -93,7 +66,7 @@
       <a class="main-page__header-item" href="#">статистика</a>
     </div>
     <div class="main-page__header-background">
-      <img class="main-page__header-background-img" src="images/menu-panel.png" alt="Menu images, panel">
+      <img class="main-page__header-background-img" src="images/calculator-menu.png" alt="Menu images, panel">
     </div>
   </header>
   <!-- header end -->
@@ -140,6 +113,8 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn modal-registration__modal-button-registration" data-dismiss="modal">Войти</button>
+          <button type="button" class="btn modal-registration__modal-button-enter" data-dismiss="modal"
+                  data-toggle="modal" data-target="#modal-registration">Регистрация</button>
         </div>
       </div>
     </div>
@@ -150,5 +125,6 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+
 </body>
 </html>
