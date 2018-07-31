@@ -9,11 +9,16 @@
 }
 
 @media (max-width: 1790px){
+    .lightning__graph-border,
+    .lightning__graph-top-line,
+    .lightning__graph-bottom-line{
+        display: none;
+    }
     .lightning__laptop-graph-top,
     .lightning__laptop-graph-bottom{
         display: none;
     }
-    .falling-object__falling-object-room{
+    .falling-object__falling-object-room {
         width: 90%;
         height: auto;
     }
@@ -30,16 +35,14 @@
             width: 80%;
         }
     }
+    .lightning__factory-shine,
+    .lightning__factory-shine-pipes,
+    .lightning__reactor-shine{
+        display: none;
+    }
 }
 
 @media (max-width: 1650px){
-    .lightning__reactor-top-left-lightning,
-    .lightning__reactor-top-right-lightning,
-    .lightning__graph-border,
-    .lightning__graph-top-line,
-    .lightning__graph-bottom-line{
-        display: none;
-    }
     .main-page__animation{
         width: 90%;
     }

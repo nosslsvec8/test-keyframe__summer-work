@@ -416,6 +416,12 @@ a,a:hover,a:visited,a:link{
     animation-name: graph-border ;
 }
 
+.lightning__graph-border_duplicate{
+    -moz-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
 @keyframes graph-border {
     0% {
         opacity: 0.6;
@@ -658,5 +664,94 @@ a,a:hover,a:visited,a:link{
         left: 1270px;
         width: 5px;
         height: 5px;
+    }
+}
+
+.lightning-shine{
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.lightning__reactor-shine{
+    top: 210px;
+    left: 1275px;
+    opacity: 0;
+    -moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -moz-animation-name: reactor-shine ;
+    -webkit-animation-name: reactor-shine ;
+    animation-name: reactor-shine ;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.lightning__factory-shine{
+    position: absolute;
+    top: 210px;
+    left: 790px;
+    opacity: 0;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -moz-animation-name: factory-shine ;
+    -webkit-animation-name: factory-shine ;
+    animation-name: factory-shine ;
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.lightning__factory-shine-pipes{
+    position: absolute;
+    top: 210px;
+    left: 790px;
+    opacity: 0;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -moz-animation-name: factory-shine-pipes ;
+    -webkit-animation-name: factory-shine-pipes ;
+    animation-name: factory-shine-pipes ;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@keyframes factory-shine-pipes{
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.08;
+    }
+    100%{
+        opacity: 0.25;
+    }
+}
+
+@keyframes factory-shine {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.6;
+    }
+}
+
+@keyframes reactor-shine {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.95;
     }
 }
