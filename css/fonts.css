@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: 'GothaProBol'; /* Имя шрифта */
+    src: url(../fonts/GothaProBol.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
     font-family: 'BlenderPro-Bold'; /* Имя шрифта */
     src: url(../fonts/BlenderPro-Bold.otf); /* Путь к файлу со шрифтом */
 }

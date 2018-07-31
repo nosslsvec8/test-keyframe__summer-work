@@ -2,3 +2,71 @@
     padding-bottom: 500px;
     background: url("../images/partners-bg.png") no-repeat;
 }
+
+.calculator-page__dynamic-input-panel{
+    font-size: 18px;
+    color: #fff;
+}
+
+.calculator-page__dynamic-select-currency,
+.calculator-page__dynamic-input-amount{
+    font-family: 'GothaProLig';
+    background: linear-gradient(to right, #fda56a, #fd7f74);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(253,165,106,0.8);
+}
+
+.calculator-page__dynamic-label-currency{
+    font-family: 'GothaProMed';
+}
+
+.calculator-page__dynamic-select-currency{
+
+}
+
+.calculator-page__dynamic-label-amount{
+    font-family: 'GothaProMed';
+}
+
+.calculator-page__dynamic-input-amount{
+
+}
+
+.calculator-page__view-panel-info{
+
+}
+
+.calculator-page__view-info-item{
+
+}
+
+.calculator-page__circle-outside{
+    position: absolute;
+}
+
+.calculator-page__circle-inside{
+    position: absolute;
+}
+
+.calculator-page__view-info-item-description{
+    color: #f7a66a;
+    font-size: 18px;
+}
+
+.calculator-page__item-description-title{
+    font-family: 'GothaProBol';
+}
+
+.calculator-page__item-description-border{
+    height: 1px;
+    width: 50px;
+    background: linear-gradient(to right, #fd7f74, #fda56a);
+    margin: 10px 0;
+}
+
+.calculator-page__item-description-value{
+    font-family: 'GothaProLig';
+}
