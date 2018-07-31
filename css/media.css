@@ -1,10 +1,34 @@
 @media (max-width: 1919px){
     .falling-object__falling-object-room{
-        width: 90%;
+        width: auto;
         height: auto;
     }
     .main-page__animation{
         width: auto;
+    }
+}
+
+@media (max-width: 1790px){
+    .lightning__laptop-graph-top,
+    lightning__laptop-graph-bottom{
+        display: none;
+    }
+    .falling-object__falling-object-room{
+        width: 90%;
+        height: auto;
+    }
+    .office.pulsation{
+        -moz-animation-name: pulsation ;
+        -webkit-animation-name: pulsation ;
+        animation-name: pulsation;
+    }
+    @keyframes pulsation {
+        from {
+            width: 90%;
+        }
+        to {
+            width: 80%;
+        }
     }
 }
 
