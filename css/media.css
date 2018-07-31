@@ -10,7 +10,7 @@
 
 @media (max-width: 1790px){
     .lightning__laptop-graph-top,
-    lightning__laptop-graph-bottom{
+    .lightning__laptop-graph-bottom{
         display: none;
     }
     .falling-object__falling-object-room{
