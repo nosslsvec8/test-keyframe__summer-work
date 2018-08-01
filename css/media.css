@@ -133,13 +133,3 @@
         display: none;
     }
 }
-
-/* xs */
-@media (max-width: 576px){
-
-}
-
-/* до 320 или 300, айфоны */
-@media (max-width: 480px){
-
-}
