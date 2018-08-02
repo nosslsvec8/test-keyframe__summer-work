@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'GothaProBol'; /* Имя шрифта */
-    src: url(../fonts/GothaProBol.otf); /* Путь к файлу со шрифтом */
+    font-family: 'GothaPro'; /* Имя шрифта */
+    src: url(../fonts/GothaProReg.otf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {

@@ -103,10 +103,6 @@
     position: absolute;
 }
 
-circles__circle-border{
-
-}
-
 .circling{
     animation: circling infinite 3s linear;
 }

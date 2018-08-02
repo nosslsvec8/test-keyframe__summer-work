@@ -42,6 +42,7 @@ a,a:hover,a:visited,a:link{
     margin: 0;
     font-family: 'GothaProBol';
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .main-page__form-view-text{
