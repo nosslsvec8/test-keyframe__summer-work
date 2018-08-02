@@ -1,0 +1,314 @@
+.statistic-page{
+    /*width: 1920px;*/
+    /*height: 1085px;*/
+    /*background: url("../all_new_stats.png") no-repeat;*/
+    /*background-size: contain;*/
+
+    background: url("../images/statistic-bg.jpg");
+    background-size: cover;
+    padding-bottom: 700px;
+}
+
+.statistic-page > *{
+    /*opacity: 0.8;*/
+}
+
+.statistic-page .main-page__form-view {
+    padding: 108px 0 0 58px;
+}
+
+.statistic-page .main-page__form-view-head {
+    padding: 0 0 73px 0;
+}
+
+.statistic-page__form-view-nameplate{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 0 7px;
+    padding: 3px 13px;
+    display: inline-block;
+    /*background: linear-gradient(to right, #f7a66a, #fd7677);*/
+    background: #f7a66a;
+    font-family: 'GothaProMed';
+    animation-duration: 6s;
+    animation-name: transfusion_bg;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes transfusion_bg {
+    0%{
+        background: #f7a66a;
+    }
+    33%{
+        background: none;
+    }
+    66%{
+        background: #fd7677;
+    }
+    100%{
+        background: none;
+    }
+}
+
+.statistic-page__circles-disneyland{
+
+}
+
+.statistic-page__circles-item{
+    width: 127px;
+    height: 127px;
+    background: url("../images/statistic-circle-img.png");
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    font-family: 'GothaProLig';
+    color: #fff;
+    font-size: 17px;
+}
+
+.statistic-page__circles-item-currency{
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+}
+
+.statistic-page__circles-item-value{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 6px 0 0;
+}
+
+.statistic-page__circles-item-date{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+}
+
+.statistic-page__circle-one{
+    top: 502px;
+    left: 247px;
+}
+
+.statistic-page__circle-two{
+    top: 457px;
+    left: 460px;
+}
+
+.statistic-page__circle-three{
+    top: 513px;
+    left: 728px;
+}
+
+.statistic-page__circle-four{
+    top: 484px;
+    left: 954px;
+}
+
+.statistic-page__circle-five{
+    top: 672px;
+    left: 1020px;
+}
+
+.statistic-page__circle-six{
+    top: 730px;
+    left: 838px;
+}
+
+.statistic-page__circle-seven{
+    top: 687px;
+    left: 629px;
+}
+
+.statistic-page__circle-eight{
+    top: 666px;
+    left: 445px;
+}
+
+.statistic-page__circle-nine{
+    top: 739px;
+    left: 248px;
+}
+
+.statistic-page__lightning-running{
+    width: 7px;
+    height: 7px;
+    opacity: 0.75;
+    background: #fda56a;
+    position: absolute;
+    top: 566px;
+    left: 376px;
+    border-radius: 10px;
+    animation-duration: 24s;
+    animation-name: lightning-running;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+}
+
+@keyframes lightning-running {
+    0%{
+        opacity: 0.75;
+        top: 566px;
+        left: 376px;
+    }
+    6%{
+        top: 531px;
+        left: 455px;
+        opacity: 0.75;
+    }
+    6.1%{
+        opacity: 0;
+    }
+    12.4%{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 0.75;
+        top: 521px;
+        left: 588px;
+    }
+    19%{
+        opacity: 0.75;
+        top: 574px;
+        left: 723px;
+    }
+    19.1%{
+        opacity: 0;
+    }
+    24.9%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.75;
+        top: 589px;
+        left: 854px;
+    }
+    31%{
+        opacity: 0.75;
+        top: 554px;
+        left: 948px;
+    }
+    31.1%{
+        opacity: 0;
+    }
+    37.4%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 0.75;
+        top: 550px;
+        left: 1082px;
+    }
+    43.5%{
+        opacity: 0.75;
+        top: 630px;
+        left: 1191px;
+    }
+    49.9%{
+        opacity: 0.75;
+    }
+    50%{
+        top: 731px;
+        left: 1148px;
+        opacity: 0;
+    }
+    55.9%{
+        opacity: 0;
+    }
+    56%{
+        opacity: 0.75;
+        top: 779px;
+        left: 1032px;
+    }
+    61.4%{
+        opacity: 0.75;
+    }
+    62.5%{
+        opacity: 0;
+        top: 800px;
+        left: 966px;
+    }
+    68.4%{
+        opacity: 0;
+    }
+    68.5%{
+        opacity: 0.75;
+        top: 802px;
+        left: 833px;
+    }
+    74.9%{
+        opacity: 0.75;
+    }
+    75%{
+        top: 767px;
+        left: 754px;
+        opacity: 0;
+    }
+    80.9%{
+        opacity: 0;
+        top: 753px;
+        left: 623px;
+    }
+    81%{
+        opacity: 0.75;
+        top: 753px;
+        left: 623px;
+    }
+    87.4%{
+        opacity: 0.75;
+        top: 739px;
+        left: 572px;
+    }
+    87.5%{
+        opacity: 0;
+        top: 739px;
+        left: 572px;
+    }
+    93.9%{
+        opacity: 0;
+        top: 752px;
+        left: 444px;
+    }
+    94%{
+        opacity: 0.75;
+        top: 752px;
+        left: 444px;
+    }
+    100%{
+        opacity: 0.75;
+        top: 805px;
+        left: 375px;
+    }
+}
+
+@media (max-width: 1200px){
+    .statistic-page{
+        padding-bottom: 230px !important;
+    }
+    .main-page__content{
+        width: 80%;
+        display: inline-block;
+    }
+    .statistic-page__circles-disneyland{
+        display: inline-block;
+        width: 80%;
+        padding-top: 30px;
+        float: left;
+    }
+    .statistic-page__circles-item{
+        width: 127px;
+        height: 127px;
+        display: inline-block;
+        position: static;
+        margin: 12px 25px;
+    }
+    .main-page__header {
+        padding: 200px 35px 0 0 !important;
+    }
+}
