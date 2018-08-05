@@ -1,0 +1,112 @@
+.support-page{
+    /*width: 1920px;*/
+    /*height: 1085px;*/
+    /*background: url("../all_new_support.png") no-repeat;*/
+    /*background-size: contain;*/
+}
+
+.statistic-page > *{
+    /*opacity: 0.8;*/
+}
+
+.support-page__purple{
+    color: #d363fd;
+    font-family: 'BlenderPro-Medium';
+    animation-duration: 1.5s;
+    animation-name: transfusion_color;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes transfusion_color {
+    to{color: #d363fd;}
+    from{color: #7337e6;}
+}
+
+.support-page .main-page__form-view-text {
+    letter-spacing: 0.5px;
+}
+
+.support-page__form-support{
+    width: 595px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 399px;
+    left: 984px;
+}
+
+.support-page__form-input,
+.support-page__form-textarea{
+    width: 595px;
+    border: 1px solid #a05de6;
+    background: transparent;
+    color: #fbf2f8;
+    font-size: 12px;
+    font-family: 'GothaProLig';
+    padding: 6px 5px 6px 19px;
+    margin-bottom: 11px;
+    animation-duration: 1s;
+    animation-name: transfusion_border;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes transfusion_border {
+    to{border: 1px solid #a05de6;}
+    from{border: 1px solid #a05de640;}
+}
+
+.support-page__form-input::placeholder,
+.support-page__form-textarea::placeholder{
+    color: #fbf2f8;
+}
+
+.support-page__form-textarea{
+    height: 150px;
+}
+
+.support-page__form-button{
+    margin: 16px 0 0 0;
+    padding: 14px 43px;
+    font-size: 15px;
+    animation-duration: 1.5s;
+    animation-name: transfusion_bg;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background: #a05fe0;
+}
+
+@keyframes transfusion_bg {
+    to{background: #a05de6;}
+    from{background: #7337e6;}
+}
+
+@media (max-width: 1750px){
+    .support-page__form-support{
+        left: 900px;
+    }
+    .support-page__form-support,
+    .support-page__form-input,
+    .support-page__form-textarea{
+        width: 400px;
+    }
+}
+
+@media (max-width: 1500px){
+    .main-page__content{
+        width: 80%;
+        display: inline-block;
+    }
+    .support-page__form-support{
+        position: static;
+        display: block;
+    }
+    .support-page__form-support,
+    .support-page__form-input,
+    .support-page__form-textarea{
+        width: 595px;
+    }
+}

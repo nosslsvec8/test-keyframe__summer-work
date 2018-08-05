@@ -1,16 +1,7 @@
 .statistic-page{
-    /*width: 1920px;*/
-    /*height: 1085px;*/
-    /*background: url("../all_new_stats.png") no-repeat;*/
-    /*background-size: contain;*/
-
     background: url("../images/statistic-bg.jpg");
     background-size: cover;
     padding-bottom: 700px;
-}
-
-.statistic-page > *{
-    /*opacity: 0.8;*/
 }
 
 .statistic-page .main-page__form-view {
@@ -65,8 +56,7 @@
     font-family: 'GothaProLig';
     color: #fff;
     font-size: 17px;
-    animation-duration: 24s;
-    animation-name: lightning-circle;
+    animation-duration: 16s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: inherit;
@@ -177,41 +167,241 @@
 .statistic-page__circle-two{
     top: 457px;
     left: 460px;
+    animation-name: lightning-circle-2;
+}
+
+@keyframes lightning-circle-2 {
+    6%{
+        width: 127px;
+        height: 127px;
+        top: 457px;
+        left: 460px;
+        opacity: 1;
+    }
+    7%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 437px;
+        left: 440px;
+    }
+    8%{
+        width: 127px;
+        height: 127px;
+        top: 457px;
+        left: 460px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-three{
     top: 513px;
     left: 728px;
+    animation-name: lightning-circle-3;
+}
+
+@keyframes lightning-circle-3 {
+    18.5%{
+        width: 127px;
+        height: 127px;
+        top: 513px;
+        left: 728px;
+        opacity: 1;
+    }
+    19.5%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 493px;
+        left: 708px;
+    }
+    20.5%{
+        width: 127px;
+        height: 127px;
+        top: 513px;
+        left: 728px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-four{
     top: 484px;
     left: 954px;
+    animation-name: lightning-circle-4;
+}
+
+@keyframes lightning-circle-4 {
+    30.5%{
+        width: 127px;
+        height: 127px;
+        top: 484px;
+        left: 954px;
+        opacity: 1;
+    }
+    31.5%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 464px;
+        left: 934px;
+    }
+    32.5%{
+        width: 127px;
+        height: 127px;
+        top: 484px;
+        left: 954px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-five{
     top: 672px;
     left: 1020px;
+    animation-name: lightning-circle-5;
+}
+
+@keyframes lightning-circle-5 {
+    49.5%{
+        width: 127px;
+        height: 127px;
+        top: 672px;
+        left: 1020px;
+        opacity: 1;
+    }
+    50.5%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 652px;
+        left: 1000px;
+    }
+    51.5%{
+        width: 127px;
+        height: 127px;
+        top: 672px;
+        left: 1020px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-six{
     top: 730px;
     left: 838px;
+    animation-name: lightning-circle-6;
+}
+
+@keyframes lightning-circle-6 {
+    61.5%{
+        width: 127px;
+        height: 127px;
+        top: 730px;
+        left: 838px;
+        opacity: 1;
+    }
+    62.5%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 710px;
+        left: 818px;
+    }
+    63.5%{
+        width: 127px;
+        height: 127px;
+        top: 730px;
+        left: 838px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-seven{
     top: 687px;
     left: 629px;
+    animation-name: lightning-circle-7;
+}
+
+@keyframes lightning-circle-7 {
+    74.5%{
+        width: 127px;
+        height: 127px;
+        top: 687px;
+        left: 629px;
+        opacity: 1;
+    }
+    75.5%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 667px;
+        left: 609px;
+    }
+    76.5%{
+        width: 127px;
+        height: 127px;
+        top: 687px;
+        left: 629px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-eight{
     top: 666px;
     left: 445px;
+    animation-name: lightning-circle-8;
+}
+
+@keyframes lightning-circle-8 {
+    87%{
+        width: 127px;
+        height: 127px;
+        top: 666px;
+        left: 445px;
+        opacity: 1;
+    }
+    88%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 646px;
+        left: 425px;
+    }
+    89%{
+        width: 127px;
+        height: 127px;
+        top: 666px;
+        left: 445px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__circle-nine{
     top: 739px;
     left: 248px;
+    animation-name: lightning-circle-9;
+}
+
+@keyframes lightning-circle-9 {
+    98%{
+        width: 127px;
+        height: 127px;
+        top: 739px;
+        left: 248px;
+        opacity: 1;
+    }
+    99%{
+        opacity: 0.5;
+        width: 167px;
+        height: 167px;
+        top: 719px;
+        left: 228px;
+    }
+    100%{
+        width: 127px;
+        height: 127px;
+        top: 739px;
+        left: 248px;
+        opacity: 1;
+    }
 }
 
 .statistic-page__lightning-running{
@@ -223,7 +413,7 @@
     top: 566px;
     left: 376px;
     border-radius: 10px;
-    animation-duration: 24s;
+    animation-duration: 16s;
     animation-name: lightning-running;
     animation-delay: 0s;
     animation-iteration-count: infinite;

@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: 'BlenderPro-Medium'; /* Имя шрифта */
+    src: url(../fonts/BlenderPro-Medium.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
     font-family: 'BlenderPro-Book'; /* Имя шрифта */
     src: url(../fonts/BlenderPro-Book.otf); /* Путь к файлу со шрифтом */
 }
