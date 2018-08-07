@@ -32,7 +32,7 @@
 </head>
 <body>
 
-<div class="main-page calculator-page">
+<div class="main-page mining-page">
   <div class="main-page__content">
     <div class="main-page__logo">
       <a href="#">
@@ -44,47 +44,280 @@
         МАЙНИНГ
       </h1>
     </div>
+    <!-- table -->
     <div class="calculator-page__table">
       <img class="calculator-page__table-border calculator-page__table-border-top-left" src="images/calculator-border-table-mini.png" alt="Угол-таблицы">
       <img class="calculator-page__table-border calculator-page__table-border-top-right" src="images/calculator-border-table-mini.png" alt="Угол-таблицы">
       <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title calculator-page__table-row-title-first">Час:</h2>
-        <span class="calculator-page__table-row-value">0.08333333</span>
+        <h2 class="calculator-page__table-row-title calculator-page__table-row-title-first">Ваш уровень:</h2>
+        <span class="calculator-page__table-row-value">0</span>
         <div class="calculator-page__table-row-border-bottom"></div>
       </div>
       <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title">День:</h2>
-        <span class="calculator-page__table-row-value">2.00000000</span>
+        <h2 class="calculator-page__table-row-title">До уровень 1 осталось:</h2>
+        <span class="calculator-page__table-row-value">301 GH/S</span>
         <div class="calculator-page__table-row-border-bottom"></div>
       </div>
       <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title">Месяц:</h2>
-        <span class="calculator-page__table-row-value">60.00000000</span>
+        <h2 class="calculator-page__table-row-title">Доступно GH/S:</h2>
+        <span class="calculator-page__table-row-value">100%</span>
         <div class="calculator-page__table-row-border-bottom"></div>
       </div>
       <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title">3 месяцев:</h2>
-        <span class="calculator-page__table-row-value">180.00000000</span>
+        <h2 class="calculator-page__table-row-title">Используется GH/S:</h2>
+        <span class="calculator-page__table-row-value">100%</span>
         <div class=" calculator-page__table-row-border-bottom"></div>
       </div>
       <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title">Год:</h2>
-        <span class="calculator-page__table-row-value">730.00000000</span>
-        <div class="calculator-page__table-row-border-bottom"></div>
-      </div>
-      <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title">3 года:</h2>
-        <span class="calculator-page__table-row-value">2190.00000000</span>
-        <div class="calculator-page__table-row-border-bottom"></div>
-      </div>
-      <div class="calculator-page__table-row">
-        <h2 class="calculator-page__table-row-title">5 лет:</h2>
-        <span class="calculator-page__table-row-value">3650.00000000</span>
+        <h2 class="calculator-page__table-row-title">В наличии:</h2>
+        <span class="calculator-page__table-row-value">200 GH/S</span>
         <div class="calculator-page__table-row-border-bottom calculator-page__table-row-border-bottom_last"></div>
       </div>
       <img class="calculator-page__table-border calculator-page__table-border-bottom-left" src="images/calculator-border-table-mini.png" alt="Угол-таблицы">
       <img class="calculator-page__table-border calculator-page__table-border-bottom-right" src="images/calculator-border-table-mini.png" alt="Угол-таблицы">
     </div>
+    <!-- table end -->
+    <div class="mining-page__statistic-panel">
+      <div class="mining-page__statistic-panel-column-first">
+        <form action="" method="POST" class="mining-page__statistic-item bitcoin">
+          <div class="mining-page__statistic-item-logo">
+            <img class="mining-page__statistic-item-logo-img" src="images/bitcoin_logo.png" title="Bitcoin"
+                 alt="bitcoin">
+          </div>
+          <div class="mining-page__statistic-item-input-panel">
+            <span class="mining-page__statistic-item-input-panel-title">Мощность</span>
+            <div class="mining-page__statistic-item-input-panel-div">
+              <input class="mining-page__statistic-item-input-scroll" type="range" min="0" max="100" step="1" value="0">
+              <div class="mining-page__statistic-item-input-scroll-value">
+                <span class="mining-page__statistic-item-input-scroll-value-span">0</span>
+                <span>%</span>
+              </div>
+            </div>
+          </div>
+          <div class="mining-page__statistic-item-title">Bitcoin</div>
+          <div class="mining-page__statistic-item-second-panel">
+            <div class="mining-page__statistic-item-second-panel-cost">
+              <span class="mining-page__statistic-item-second-panel-span-title">Цена</span>
+              <span class="mining-page__statistic-item-second-panel-span-cost">562</span>
+              <span class="mining-page__statistic-item-second-panel-span-currency">$</span>
+            </div>
+            <div class="mining-page__statistic-item-second-panel-value">
+              <span class="mining-page__statistic-item-second-panel-span-value">0.000000</span>
+              <span class="mining-page__statistic-item-second-panel-span-value-currency">BTC</span>
+            </div>
+          </div>
+          <div class="mining-page__statistic-item-analytics">
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-1">
+              <span class="mining-page__statistic-item-analytics-item-time">В час:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-2">
+              <span class="mining-page__statistic-item-analytics-item-time">В месяц:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-3">
+              <span class="mining-page__statistic-item-analytics-item-time">В день:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-4">
+              <span class="mining-page__statistic-item-analytics-item-time">В год:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+          </div>
+        </form>
+        <form action="" method="POST" class="mining-page__statistic-item dashcoin">
+          <div class="mining-page__statistic-item-logo">
+            <img class="mining-page__statistic-item-logo-img" src="images/dash_logo.png" title="Dashcoin"
+                 alt="dashcoin">
+          </div>
+          <div class="mining-page__statistic-item-input-panel">
+            <span class="mining-page__statistic-item-input-panel-title">Мощность</span>
+            <div class="mining-page__statistic-item-input-panel-div">
+              <input class="mining-page__statistic-item-input-scroll" type="range" min="0" max="100" step="1" value="0">
+              <div class="mining-page__statistic-item-input-scroll-value">
+                <span class="mining-page__statistic-item-input-scroll-value-span">0</span>
+                <span>%</span>
+              </div>
+            </div>
+          </div>
+          <div class="mining-page__statistic-item-title">Dashcoin</div>
+          <div class="mining-page__statistic-item-second-panel">
+            <div class="mining-page__statistic-item-second-panel-cost">
+              <span class="mining-page__statistic-item-second-panel-span-title">Цена</span>
+              <span class="mining-page__statistic-item-second-panel-span-cost">562</span>
+              <span class="mining-page__statistic-item-second-panel-span-currency">$</span>
+            </div>
+            <div class="mining-page__statistic-item-second-panel-value">
+              <span class="mining-page__statistic-item-second-panel-span-value">0.000000</span>
+              <span class="mining-page__statistic-item-second-panel-span-value-currency">DASH</span>
+            </div>
+          </div>
+          <div class="mining-page__statistic-item-analytics">
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-1">
+              <span class="mining-page__statistic-item-analytics-item-time">В час:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-2">
+              <span class="mining-page__statistic-item-analytics-item-time">В месяц:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-3">
+              <span class="mining-page__statistic-item-analytics-item-time">В день:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+            <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-4">
+              <span class="mining-page__statistic-item-analytics-item-time">В год:</span>
+              <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+            </div>
+          </div>
+        </form>
+        <div class="mining-page__statistic-panel-column-second">
+          <form action="" method="POST" class="mining-page__statistic-item litecoin">
+            <div class="mining-page__statistic-item-logo">
+              <img class="mining-page__statistic-item-logo-img" src="images/ltc_logo.png" title="Litecoin"
+                   alt="litecoin">
+            </div>
+            <div class="mining-page__statistic-item-input-panel">
+              <span class="mining-page__statistic-item-input-panel-title">Мощность</span>
+              <div class="mining-page__statistic-item-input-panel-div">
+                <input class="mining-page__statistic-item-input-scroll" type="range" min="0" max="100" step="1"
+                       value="0">
+                <div class="mining-page__statistic-item-input-scroll-value">
+                  <span class="mining-page__statistic-item-input-scroll-value-span">0</span>
+                  <span>%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mining-page__statistic-item-title">Litecoin</div>
+            <div class="mining-page__statistic-item-second-panel">
+              <div class="mining-page__statistic-item-second-panel-cost">
+                <span class="mining-page__statistic-item-second-panel-span-title">Цена</span>
+                <span class="mining-page__statistic-item-second-panel-span-cost">562</span>
+                <span class="mining-page__statistic-item-second-panel-span-currency">$</span>
+              </div>
+              <div class="mining-page__statistic-item-second-panel-value">
+                <span class="mining-page__statistic-item-second-panel-span-value">0.000000</span>
+                <span class="mining-page__statistic-item-second-panel-span-value-currency">LTC</span>
+              </div>
+            </div>
+            <div class="mining-page__statistic-item-analytics">
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-1">
+                <span class="mining-page__statistic-item-analytics-item-time">В час:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-2">
+                <span class="mining-page__statistic-item-analytics-item-time">В месяц:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-3">
+                <span class="mining-page__statistic-item-analytics-item-time">В день:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-4">
+                <span class="mining-page__statistic-item-analytics-item-time">В год:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+            </div>
+          </form>
+          <form action="" method="POST" class="mining-page__statistic-item dollar">
+            <div class="mining-page__statistic-item-logo">
+              <img class="mining-page__statistic-item-logo-img" src="images/dollar_logo.png" title="Dollar"
+                   alt="dollar">
+            </div>
+            <div class="mining-page__statistic-item-input-panel">
+              <span class="mining-page__statistic-item-input-panel-title">Мощность</span>
+              <div class="mining-page__statistic-item-input-panel-div">
+                <input class="mining-page__statistic-item-input-scroll" type="range" min="0" max="100" step="1"
+                       value="0">
+                <div class="mining-page__statistic-item-input-scroll-value">
+                  <span class="mining-page__statistic-item-input-scroll-value-span">0</span>
+                  <span>%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mining-page__statistic-item-title">Dollar</div>
+            <div class="mining-page__statistic-item-second-panel">
+              <div class="mining-page__statistic-item-second-panel-cost">
+                <span class="mining-page__statistic-item-second-panel-span-title">Цена</span>
+                <span class="mining-page__statistic-item-second-panel-span-cost">562</span>
+                <span class="mining-page__statistic-item-second-panel-span-currency">$</span>
+              </div>
+              <div class="mining-page__statistic-item-second-panel-value">
+                <span class="mining-page__statistic-item-second-panel-span-value">0.000000</span>
+                <span class="mining-page__statistic-item-second-panel-span-value-currency">USD</span>
+              </div>
+            </div>
+            <div class="mining-page__statistic-item-analytics">
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-1">
+                <span class="mining-page__statistic-item-analytics-item-time">В час:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-2">
+                <span class="mining-page__statistic-item-analytics-item-time">В месяц:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-3">
+                <span class="mining-page__statistic-item-analytics-item-time">В день:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+              <div class="mining-page__statistic-item-analytics-item mining-page__statistic-item-analytics-item-4">
+                <span class="mining-page__statistic-item-analytics-item-time">В год:</span>
+                <span class="mining-page__statistic-item-analytics-item-value">0.00000000</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- mining-graph -->
+    <div class="mining-page__graph">
+      <img class="mining-page__graph-img" src="images/mining-graph.png" alt="граф-картинка">
+      <div class="mining-page__graph-statistics">
+        <!-- Цикл значений за уровни -->
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-1">
+          <span class="mining-page__graph-item-percent">2.3%</span>
+          <span class="mining-page__graph-item-number">1</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-2">
+          <span class="mining-page__graph-item-percent">2.7%</span>
+          <span class="mining-page__graph-item-number">2</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-3">
+          <span class="mining-page__graph-item-percent">3%</span>
+          <span class="mining-page__graph-item-number">3</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-4">
+          <span class="mining-page__graph-item-percent">3.3%</span>
+          <span class="mining-page__graph-item-number">4</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-5">
+          <span class="mining-page__graph-item-percent">3.5%</span>
+          <span class="mining-page__graph-item-number">5</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-6">
+          <span class="mining-page__graph-item-percent">4%</span>
+          <span class="mining-page__graph-item-number">6</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-7">
+          <span class="mining-page__graph-item-percent">4.5%</span>
+          <span class="mining-page__graph-item-number">7</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-8">
+          <span class="mining-page__graph-item-percent">5.5%</span>
+          <span class="mining-page__graph-item-number">8</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-9">
+          <span class="mining-page__graph-item-percent">6.5%</span>
+          <span class="mining-page__graph-item-number">9</span>
+        </div>
+        <div class="mining-page__graph-statistics-item mining-page__graph-statistics-item-10">
+          <span class="mining-page__graph-item-percent">8%</span>
+          <span class="mining-page__graph-item-number">10</span>
+        </div>
+        <!-- Цикл значений за уровни end -->
+      </div>
+    </div>
+    <!-- mining-graph end -->
   </div>
   <!-- top-header -->
   <div class="top-header">
@@ -108,7 +341,7 @@
   </header>
   <!-- header end -->
   <!-- Modal-registration -->
-  <div class="modal fade modal-registration" id="modal-registration" tabindex="-1" role="dialog"
+  <form action="" method="POST" class="modal fade modal-registration" id="modal-registration" tabindex="-1" role="dialog"
        aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -131,10 +364,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </form>
   <!-- Modal-registration end -->
   <!-- Modal-entrance -->
-  <div class="modal fade modal-registration" id="modal-entrance" tabindex="-1" role="dialog"
+  <form action="" method="POST" class="modal fade modal-registration" id="modal-entrance" tabindex="-1" role="dialog"
        aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -155,13 +388,21 @@
         </div>
       </div>
     </div>
-  </div>
+  </form>
   <!-- Modal-entrance end -->
 </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+      $(document).ready(function() {
+          $('.mining-page__statistic-item-input-scroll').on('input keyup', function(e) {
+              var value = $(this).val();
+              $(this).parent().find('.mining-page__statistic-item-input-scroll-value-span').text(value);
+          });
+      });
+  </script>
 
 </body>
 </html>

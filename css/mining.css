@@ -1,224 +1,18 @@
-.calculator-page{
-    padding-bottom: 250px;
+.mining-page{
+    padding-bottom: 450px;
     background: url("../images/calculator-bg.jpg") no-repeat;
     background-size: cover;
-
-    /*width: 1920px;*/
-    /*height: 1085px;*/
-    /*background: url("../all_new_calculator.png") no-repeat;*/
-    /*background-size: contain;*/
 }
 
-.calculator-page > *{
-    /*opacity: 0.8;*/
-}
-
-.calculator-page  .main-page__form-view {
-    padding: 109px 0 0 58px;
-}
-
-.calculator-page .main-page__form-view-head {
-    padding: 0 0 30px 0;
-}
-
-.calculator-page .main-page__form-view-text {
-    padding: 0 0 15px 5px;
-}
-
-.calculator-page__dynamic-input-panel{
-    font-size: 18px;
-    color: #fff;
-    padding: 66px 0 0 63px;
-    display: flex;
-}
-
-.calculator-page__dynamic-select-currency,
-.calculator-page__dynamic-input-amount{
-    font-family: 'GothaProLig';
-    background: linear-gradient(to right, #fda56a, #fd7f74);
-    color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    box-shadow: 0px 0px 15px 0px rgba(253,165,106,0.8);
-    margin-left: 19px;
-    padding: 0 0 0 8px;
-    height: 32px;
-}
-
-.calculator-page__dynamic-label-currency{
-    font-family: 'GothaProMed';
-}
-
-.calculator-page__dynamic-select-currency{
-
-}
-
-.calculator-page__dynamic-label-amount{
-    font-family: 'GothaProMed';
-    margin-left: 78px;
-}
-
-.calculator-page__dynamic-input-amount{
-    width: 100px;
-}
-
-.calculator-page__dynamic-input-amount::-webkit-outer-spin-button,
-.calculator-page__dynamic-input-amount::-webkit-inner-spin-button,
-.calculator-page__dynamic-input-amount[type="number"]::-webkit-outer-spin-button,
-.calculator-page__dynamic-input-amount[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-.calculator-page__dynamic-input-amount::placeholder{
-    color: #fff;
-}
-
-.calculator-page__view-panel-info{
-    margin-top: 47px;
-    padding-left: 57px;
-}
-
-.calculator-page__view-info-item{
-    width: 194px;
-    height: 194px;
-    padding: 72px;
-    display: inline-block;
-    text-align: center;
-    margin-right: 15px;
-}
-
-.calculator-page__view-info-item-animation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.calculator-page__view-item-1{}
-
-.calculator-page__view-item-2{
-    position: relative;
-    top: 10px;
-}
-
-.calculator-page__view-item-3{
-    position: relative;
-    top: 8px;
-}
-
-.calculator-page__view-item-4{
-    position: relative;
-    top: 7px;
-}
-
-.calculator-page__circle-outside{
-    position: absolute;
-    width: 194px;
-    height: 194px;
-    animation-duration: 4s;
-    animation-name: lightning-turn-outside;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: initial;
-    animation-timing-function: linear;
-}
-
-@keyframes lightning-turn-outside {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-.calculator-page__circle-inside{
-    position: absolute;
-    animation-duration: 4s;
-    animation-name: lightning-turn-inside;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: initial;
-    animation-timing-function: linear;
-
-}
-
-@keyframes lightning-turn-inside {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(-360deg); }
-}
-
-.calculator-page__item-img{
-    width: auto;
-    height: auto;
-}
-
-.calculator-page__view-info-item-description{
-    color: #f7a66a;
-    font-size: 18px;
-    padding-top: 90px;
-}
-
-.calculator-page__item-description-title{
-    font-family: 'GothaProBol';
-    font-size: 18px;
-    padding-bottom: 5px;
-    margin: 0;
-}
-
-.calculator-page__title-2{
-    position: relative;
-    left: -15px;
-}
-
-.calculator-page__title-3{
-    position: relative;
-    left: -15px;
-}
-
-.calculator-page__title-4{
-    position: relative;
-    left: -15px;
-}
-
-.calculator-page__item-description-border{
-    height: 1px;
-    width: 40px;
-    background: linear-gradient(to right, #fd7f74, #fda56a);
-    margin: 10px 0;
-    position: relative;
-    left: 5px;
-    animation-duration: 1s;
-    animation-name: flicker;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.calculator-page__item-border-2{
-    width: 60px;
-    left: -5px;
-}
-
-.calculator-page__item-border-3{
-    width: 74px;
-    left: -13px;
-}
-
-.calculator-page__item-border-4{
-    width: 74px;
-    left: -13px;
-}
-
-.calculator-page__item-description-value{
-    font-family: 'GothaProLig';
+.mining-page .main-page__form-view {
+    padding: 108px 0 0 59px;
 }
 
 .calculator-page__table{
     width: 490px;
     height: 244px;
-    position: absolute;
-    top: 326px;
-    left: 1150px;
     padding: 0;
-    margin: 0;
+    margin: 6px 0 0 62px;
 }
 
 .calculator-page__table-border-top-left{
@@ -250,11 +44,11 @@
 }
 
 .calculator-page__table-row-title{
-     font-size: 18px;
-     padding: 0 0 0 14px;
-     margin: 0;
-     font-family: 'GothaProBol';
-     display: inline-block;
+    font-size: 18px;
+    padding: 0 0 0 14px;
+    margin: 0;
+    font-family: 'GothaProBol';
+    display: inline-block;
 }
 
 .calculator-page__table-row-title-first{
@@ -265,12 +59,12 @@
     font-size: 18px;
     font-family: 'GothaProLig';
     display: inline-block;
-    padding: 0 0 0 17px;
+    padding: 0 0 0 20px;
     margin: 0;
 }
 
 .calculator-page__table-border{
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-name: flicker;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -303,24 +97,463 @@
     display: none;
 }
 
-@media (max-width: 1800px){
-    .calculator-page__table {
-        top: 300px;
-        left: 1060px;
+.mining-page__graph{
+    position: absolute;
+    top: 827px;
+    left: 138px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.mining-page__graph-img{
+    width: auto;
+    height: auto;
+}
+
+.mining-page__graph-statistics{
+
+}
+
+.mining-page__graph-statistics-item{
+    position: absolute;
+}
+
+.mining-page__graph-statistics-item-1{
+    left: 159px;
+}
+
+.mining-page__graph-statistics-item-1 .mining-page__graph-item-percent{
+    top: -200px;
+}
+
+.mining-page__graph-statistics-item-2{
+    left: 282px;
+}
+
+.mining-page__graph-statistics-item-2 .mining-page__graph-item-percent{
+    top: -178px;
+}
+
+.mining-page__graph-statistics-item-3{
+    left: 409px;
+ }
+
+.mining-page__graph-statistics-item-3 .mining-page__graph-item-percent{
+    top: -128px;
+}
+
+.mining-page__graph-statistics-item-4{
+    left: 529px;
+}
+
+.mining-page__graph-statistics-item-4 .mining-page__graph-item-percent{
+    top: -133px;
+}
+
+.mining-page__graph-statistics-item-5{
+    left: 658px;
+}
+
+.mining-page__graph-statistics-item-5 .mining-page__graph-item-percent{
+    top: -178px;
+}
+
+.mining-page__graph-statistics-item-6{
+    left: 786px
+}
+
+.mining-page__graph-statistics-item-6 .mining-page__graph-item-percent{
+    top: -197px;
+}
+
+.mining-page__graph-statistics-item-7{
+    left: 910px;
+}
+
+.mining-page__graph-statistics-item-7 .mining-page__graph-item-percent{
+    top: -167px;
+}
+
+.mining-page__graph-statistics-item-8{
+    left: 1037px;
+}
+
+.mining-page__graph-statistics-item-8 .mining-page__graph-item-percent{
+    top: -124px;
+}
+
+.mining-page__graph-statistics-item-9{
+    left: 1164px;
+}
+
+.mining-page__graph-statistics-item-9 .mining-page__graph-item-percent{
+    top: -145px;
+}
+
+.mining-page__graph-statistics-item-10{
+    left: 1288px
+}
+
+.mining-page__graph-statistics-item-10 .mining-page__graph-item-percent{
+    top: -188px;
+}
+
+.mining-page__graph-item-percent{
+    position: relative;
+    width: 60px;
+    left: -10px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'GothaProLig';
+}
+
+.mining-page__graph-item-number{
+    position: relative;
+    left: -50px;
+    font-family: 'GothaProMed';
+}
+
+.mining-page__statistic-panel{
+    position: absolute;
+    top: 255px;
+    left: 818px;
+    display: inline-block;
+}
+
+.mining-page__statistic-panel-column-first{
+
+}
+
+.mining-page__statistic-panel-column-second{
+    position: absolute;
+    top: 0;
+    left: 471px;
+}
+
+.mining-page__statistic-item{
+    width: 442px;
+    height: 212px;
+    border: 2px solid #fda56a;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'GothaProLig';
+    margin-bottom: 30px;
+    animation-duration: 0.8s;
+    animation-name: flicker-border;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes flicker-border {
+    to{border: 2px solid #fda56a;}
+    from{border: 2px solid #fd7f74;}
+}
+
+.mining-page__statistic-item-logo{
+    width: 102px;
+    padding-top: 14px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+.mining-page__statistic-item-logo-img{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.mining-page__statistic-item-input-panel{
+    display: inline-block;
+    width: 230px;
+    padding-top: 21px;
+}
+
+.mining-page__statistic-item-input-panel-title{
+    font-family: 'GothaProMed';
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.mining-page__statistic-item-title{
+    font-family: 'GothaProBol';
+    display: inline-block;
+    text-align: center;
+    width: 95px;
+    float: right;
+    padding-top: 45px;
+}
+
+.mining-page__statistic-item-input-panel-div{
+    padding-top: 6px;
+}
+
+/* Компоненты ползунка */
+.mining-page__statistic-item-input-scroll{
+    width: 100%;
+}
+
+/* контейнер */
+.mining-page__statistic-item-input-scroll[type=range]{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 3px;
+    padding: 0;
+    background: #a05de6;
+}
+
+.mining-page__statistic-item-input-scroll[type=range]:focus{
+    outline: none;
+}
+
+.mining-page__statistic-item-input-scroll[type=range]::-webkit-slider-runnable-track {
+    height: 3px;
+    cursor: pointer;
+    animate: 0.2s;
+    border: 1px solid #575656;
+    background: #a05de6;
+}
+
+/* ползунок в Хроме */
+.mining-page__statistic-item-input-scroll[type=range]::-webkit-slider-thumb {
+    box-shadow: 0 0 10px 1px #a05de6;
+    height: 9px;
+    width: 9px;
+    border-radius: 30px;
+    background: #a05de6;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4px;
+}
+
+/* Линия-ндикатор для Firefox */
+.mining-page__statistic-item-input-scroll[type=range]::-moz-range-track {
+    height: 3px;
+    cursor: pointer;
+    animate: 0.2s;
+    border: 1px solid #575656;
+    background: #a05de6;
+}
+
+/* ползунок в Firefox */
+.mining-page__statistic-item-input-scroll[type=range]::-moz-range-thumb {
+    box-shadow: 0 0 8px 1px #a05de6;
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    background: #a05de6;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+    outline: none;
+    border: none;
+}
+/* Компоненты ползунка end */
+
+.mining-page__statistic-item-input-scroll-value{
+    padding-top: 4px;
+}
+
+.mining-page__statistic-item-second-panel{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px 0 0;
+    color: #fe9d77;
+    animation-duration: 0.8s;
+    animation-name: flicker-color;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes flicker-color {
+    to{color: #fda56a;}
+    from{color: #fd7f74;}
+}
+
+.mining-page__statistic-item-second-panel-cost,
+.mining-page__statistic-item-second-panel-value{
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 0 12px #fe9d77;
+}
+
+.mining-page__statistic-item-second-panel-cost{
+    text-align: right;
+}
+
+.mining-page__statistic-item-second-panel-span-cost{
+    padding-left: 8px;
+}
+
+.mining-page__statistic-item-second-panel-span-currency{
+    padding-right: 22px;
+    margin-left: -3px;
+}
+
+.mining-page__statistic-item-second-panel-span-title,
+.mining-page__statistic-item-second-panel-span-value-currency{
+    font-family: 'GothaProMed';
+}
+
+.mining-page__statistic-item-second-panel-span-value{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mining-page__statistic-item-analytics{
+    padding: 18px 0 0 43px;
+}
+
+.mining-page__statistic-item-analytics-item{
+    width: 164px;
+    background: #fda56a;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 1px 0 1px 14px;
+    animation-duration: 1.5s;
+    animation-name: flicker-panel-bg;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes flicker-panel-bg {
+    to{background: #fda56a;}
+    from{background: #fd7f74;}
+}
+
+.mining-page__statistic-item-analytics-item-2{
+    width: 178px;
+}
+
+.mining-page__statistic-item-analytics-item-3{
+    width: 168px;
+}
+
+.mining-page__statistic-item-analytics-item-value{
+    padding-left: 10px;
+}
+
+
+
+@media (max-width: 1900px){
+    .mining-page__statistic-panel {
+        left: 750px;
+    }
+    .mining-page__graph-img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
     }
 }
 
-@media (max-width: 1720px){
-    .calculator-page__table {
-        top: 280px;
-        left: 800px;
+@media (max-width: 1830px){
+    .mining-page{
+        padding-bottom: 750px;
+    }
+    .mining-page__statistic-panel {
+        left: 760px;
+    }
+    .mining-page__statistic-panel-column-second {
+        top: 325px;
+        left: -525px;
+    }
+    .mining-page__graph {
+        top: 1100px;
+    }
+    .mining-page__graph-statistics-item{
+        position: absolute;
+    }
+    .mining-page__graph-statistics-item-1{
+        left: 9.5%;
+    }
+    .mining-page__graph-statistics-item-2{
+        left: 16.7%;
+    }
+    .mining-page__graph-statistics-item-3{
+        left: 24%;
+    }
+    .mining-page__graph-statistics-item-4{
+        left: 31.5%;
+    }
+    .mining-page__graph-statistics-item-5{
+        left: 38.8%;
+    }
+    .mining-page__graph-statistics-item-6{
+        left: 46.4%;
+    }
+    .mining-page__graph-statistics-item-7{
+        left: 54%;
+    }
+    .mining-page__graph-statistics-item-8{
+        left: 61.5%;
+    }
+    .mining-page__graph-statistics-item-9{
+        left: 69%;
+    }
+    .mining-page__graph-statistics-item-10{
+        left: 76.5%;
     }
 }
 
 @media (max-width: 1500px){
-    .calculator-page__table {
-       position: static;
-        margin-top: 50px;
-        margin-left: 60px;
+    .mining-page__graph-statistics-item-1 .mining-page__graph-item-percent{
+        top: -170px;
+    }
+    .mining-page__graph-statistics-item-2 .mining-page__graph-item-percent{
+        top: -148px;
+    }
+    .mining-page__graph-statistics-item-3 .mining-page__graph-item-percent{
+        top: -118px;
+    }
+    .mining-page__graph-statistics-item-4 .mining-page__graph-item-percent{
+        top: -113px;
+    }
+    .mining-page__graph-statistics-item-5 .mining-page__graph-item-percent{
+        top: -148px;
+    }
+    .mining-page__graph-statistics-item-6 .mining-page__graph-item-percent{
+        top: -167px;
+    }
+    .mining-page__graph-statistics-item-7 .mining-page__graph-item-percent{
+        top: -137px;
+    }
+    .mining-page__graph-statistics-item-8 .mining-page__graph-item-percent{
+        top: -104px;
+    }
+    .mining-page__graph-statistics-item-9 .mining-page__graph-item-percent{
+        top: -120px;
+    }
+    .mining-page__graph-statistics-item-10 .mining-page__graph-item-percent{
+        top: -158px;
     }
 }
+
+@media (max-width: 1400px){
+    .mining-page__statistic-panel{
+        top: 575px;
+        left: 230px;
+    }
+    .mining-page__statistic-panel-column-second {
+        top: 0;
+        left: 471px;
+    }
+}
+
+@media (max-width: 1200px){
+    .mining-page__statistic-panel{
+        top: 540px;
+        left: 165px;
+    }
+}
+

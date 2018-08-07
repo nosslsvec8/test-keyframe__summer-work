@@ -1,13 +1,4 @@
-.support-page{
-    /*width: 1920px;*/
-    /*height: 1085px;*/
-    /*background: url("../all_new_support.png") no-repeat;*/
-    /*background-size: contain;*/
-}
-
-.statistic-page > *{
-    /*opacity: 0.8;*/
-}
+.support-page{}
 
 .support-page__purple{
     color: #d363fd;

@@ -2,15 +2,6 @@
     padding-bottom: 250px;
     background: url("../images/calculator-bg.jpg") no-repeat;
     background-size: cover;
-
-    /*width: 1920px;*/
-    /*height: 1085px;*/
-    /*background: url("../all_new_calculator.png") no-repeat;*/
-    /*background-size: contain;*/
-}
-
-.calculator-page > *{
-    /*opacity: 0.8;*/
 }
 
 .calculator-page  .main-page__form-view {
