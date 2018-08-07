@@ -110,16 +110,81 @@
     height: auto;
 }
 
+.mining-page__graph-img-animation{
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.mining-page__graph-div-animation-visible{
+    width: 0;
+    overflow: hidden;
+    height: 200px;
+    position: absolute;
+    animation-duration: 11s;
+    animation-name: graph-neon;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+}
+
+@keyframes graph-neon {
+    0%{
+        width: 0;
+    }
+    10%{
+        width: 12%;
+    }
+    20%{
+        width: 19%;
+    }
+    30%{
+        width: 27%;
+    }
+    40%{
+        width: 34%;
+    }
+    50%{
+        width: 41%;
+    }
+    60%{
+        width: 49%;
+    }
+    70%{
+        width: 57%;
+    }
+    80%{
+        width: 64%;
+    }
+    90%{
+        width: 72%;
+    }
+    100%{
+        width: 79%;
+    }
+}
+
 .mining-page__graph-statistics{
 
 }
 
 .mining-page__graph-statistics-item{
     position: absolute;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
 }
 
 .mining-page__graph-statistics-item-1{
     left: 159px;
+    animation-name: graph-color-up-1;
+}
+
+@keyframes graph-color-up-1 {
+    0%{color: #fff;}
+    10%{color: #fda56a;}
+    20%{color: #fda56a;}
 }
 
 .mining-page__graph-statistics-item-1 .mining-page__graph-item-percent{
@@ -128,6 +193,13 @@
 
 .mining-page__graph-statistics-item-2{
     left: 282px;
+    animation-name: graph-color-up-2;
+}
+
+@keyframes graph-color-up-2 {
+    10%{color: #fff;}
+    20%{color: #fda56a;}
+    30%{color: #fda56a;}
 }
 
 .mining-page__graph-statistics-item-2 .mining-page__graph-item-percent{
@@ -136,7 +208,14 @@
 
 .mining-page__graph-statistics-item-3{
     left: 409px;
+    animation-name: graph-color-up-3;
  }
+
+@keyframes graph-color-up-3 {
+    20%{color: #fff;}
+    30%{color: #fda56a;}
+    40%{color: #fda56a;}
+}
 
 .mining-page__graph-statistics-item-3 .mining-page__graph-item-percent{
     top: -128px;
@@ -144,6 +223,13 @@
 
 .mining-page__graph-statistics-item-4{
     left: 529px;
+    animation-name: graph-color-up-4;
+}
+
+@keyframes graph-color-up-4 {
+    30%{color: #fff;}
+    40%{color: #fda56a;}
+    50%{color: #fda56a;}
 }
 
 .mining-page__graph-statistics-item-4 .mining-page__graph-item-percent{
@@ -152,6 +238,13 @@
 
 .mining-page__graph-statistics-item-5{
     left: 658px;
+    animation-name: graph-color-up-5;
+}
+
+@keyframes graph-color-up-5 {
+    40%{color: #fff;}
+    50%{color: #fda56a;}
+    60%{color: #fda56a;}
 }
 
 .mining-page__graph-statistics-item-5 .mining-page__graph-item-percent{
@@ -159,7 +252,14 @@
 }
 
 .mining-page__graph-statistics-item-6{
-    left: 786px
+    left: 786px;
+    animation-name: graph-color-up-6;
+}
+
+@keyframes graph-color-up-6 {
+    50%{color: #fff;}
+    60%{color: #fda56a;}
+    70%{color: #fda56a;}
 }
 
 .mining-page__graph-statistics-item-6 .mining-page__graph-item-percent{
@@ -168,6 +268,13 @@
 
 .mining-page__graph-statistics-item-7{
     left: 910px;
+    animation-name: graph-color-up-7;
+}
+
+@keyframes graph-color-up-7 {
+    60%{color: #fff;}
+    70%{color: #fd7f74;}
+    80%{color: #fd7f74;}
 }
 
 .mining-page__graph-statistics-item-7 .mining-page__graph-item-percent{
@@ -176,6 +283,13 @@
 
 .mining-page__graph-statistics-item-8{
     left: 1037px;
+    animation-name: graph-color-up-8;
+}
+
+@keyframes graph-color-up-8 {
+    70%{color: #fff;}
+    80%{color: #fd7f74;}
+    90%{color: #fd7f74;}
 }
 
 .mining-page__graph-statistics-item-8 .mining-page__graph-item-percent{
@@ -184,6 +298,13 @@
 
 .mining-page__graph-statistics-item-9{
     left: 1164px;
+    animation-name: graph-color-up-9;
+}
+
+@keyframes graph-color-up-9 {
+    80%{color: #fff;}
+    90%{color: #fd7f74;}
+    100%{color: #fd7f74;}
 }
 
 .mining-page__graph-statistics-item-9 .mining-page__graph-item-percent{
@@ -191,7 +312,13 @@
 }
 
 .mining-page__graph-statistics-item-10{
-    left: 1288px
+    left: 1288px;
+    animation-name: graph-color-up-10;
+}
+
+@keyframes graph-color-up-10 {
+    90%{color: #fff;}
+    100%{color: #a05de6;}
 }
 
 .mining-page__graph-statistics-item-10 .mining-page__graph-item-percent{
@@ -259,11 +386,41 @@
     display: inline-block;
 }
 
+.mining-page__statistic-item-logo-border{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    animation-duration: 4s;
+    animation-name: border-turn;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+    animation-timing-function: linear;
+}
+
+@keyframes border-turn {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 .mining-page__statistic-item-logo-img{
     width: auto;
     height: auto;
     max-height: 100%;
     max-width: 100%;
+    animation-duration: 4s;
+    animation-name: img-turn;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+    animation-timing-function: linear;
+}
+
+@keyframes img-turn {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
 }
 
 .mining-page__statistic-item-input-panel{
@@ -442,18 +599,141 @@
     padding-left: 10px;
 }
 
+.mining-page__graph-lightning{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 15px;
+    top: -3px;
+    left: 173px;
+    animation-duration: 11s;
+    animation-name: graph-lightning;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+}
 
+@keyframes graph-lightning {
+    0%{
+        top: 49px;
+        left: 0;
+        width: 3px;
+        height: 3px;
+        opacity: 0.5;
+    }
+    10%{
+        top: -3px;
+        left: 173px;
+        width: 7px;
+        height: 7px;
+        opacity: 0.7;
+    }
+    20%{
+        top: 24px;
+        left: 299px;
+        width: 10px;
+        height: 10px;
+        opacity: 0.85;
+    }
+    30%{
+        top: 67px;
+        left: 421px;
+    }
+    40%{
+        top: 66px;
+        left: 546px;
+    }
+    50%{
+        top: 19px;
+        left: 672px;
+    }
+    60%{
+        top: -5px;
+        left: 800px;
+    }
+    70%{
+        top: 32px;
+        left: 927px;
+    }
+    80%{
+        top: 71px;
+        left: 1051px;
+    }
+    90%{
+        top: 55px;
+        left: 1180px;
+    }
+    100%{
+        top: 8px;
+        left: 1306px;
+        opacity: 0.85;
+    }
+}
 
 @media (max-width: 1900px){
     .mining-page__statistic-panel {
         left: 750px;
     }
-    .mining-page__graph-img {
+    .mining-page__graph-img{
         width: auto;
         height: auto;
         max-width: 100%;
         max-height: 100%;
         overflow: hidden;
+    }
+    .mining-page__graph-img-animation{
+        width: auto;
+        height: auto;
+        /*max-width: auto;*/
+        overflow: hidden;
+    }
+    @keyframes graph-lightning {
+        0%{
+            top: 49px;
+            left: 0;
+        }
+        10%{
+            top: -3px;
+            left: 10.2%;
+        }
+        20%{
+            top: 24px;
+            left: 17.5%;
+        }
+        30%{
+            top: 67px;
+            left: 24.9%;
+        }
+        40%{
+            top: 66px;
+            left: 32.4%;
+        }
+        50%{
+            top: 19px;
+            left: 39.7%;
+        }
+        60%{
+            top: -5px;
+            left: 47.3%;
+        }
+        70%{
+            top: 32px;
+            left: 54.9%;
+        }
+        80%{
+            top: 71px;
+            left: 62.4%;
+        }
+        90%{
+            top: 55px;
+            left: 69.9%;
+        }
+        100%{
+            top: 8px;
+            left: 77.4%;
+        }
     }
 }
 
@@ -536,6 +816,52 @@
     }
     .mining-page__graph-statistics-item-10 .mining-page__graph-item-percent{
         top: -158px;
+    }
+    @keyframes graph-lightning {
+        0%{
+            top: 18%;
+            left: 0;
+        }
+        10%{
+            top: -3px;
+            left: 10.2%;
+        }
+        20%{
+            top: 12px;
+            left: 17.5%;
+        }
+        30%{
+            top: 40%;
+            left: 24.9%;
+        }
+        40%{
+            top: 38%;
+            left: 32.4%;
+        }
+        50%{
+            top: 10px;
+            left: 39.7%;
+        }
+        60%{
+            top: -5px;
+            left: 47.3%;
+        }
+        70%{
+            top: 16%;
+            left: 54.9%;
+        }
+        80%{
+            top: 42%;
+            left: 62.4%;
+        }
+        90%{
+            top: 30%;
+            left: 69.9%;
+        }
+        100%{
+            top: 5px;
+            left: 77.4%;
+        }
     }
 }
 

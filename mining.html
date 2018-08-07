@@ -81,6 +81,7 @@
       <div class="mining-page__statistic-panel-column-first">
         <form action="" method="POST" class="mining-page__statistic-item bitcoin">
           <div class="mining-page__statistic-item-logo">
+            <img class="mining-page__statistic-item-logo-border" src="images/bitcoin_border_logo.png" alt="Рамка валюты">
             <img class="mining-page__statistic-item-logo-img" src="images/bitcoin_logo.png" title="Bitcoin"
                  alt="bitcoin">
           </div>
@@ -127,6 +128,7 @@
         </form>
         <form action="" method="POST" class="mining-page__statistic-item dashcoin">
           <div class="mining-page__statistic-item-logo">
+            <img class="mining-page__statistic-item-logo-border" src="images/bitcoin_border_logo.png" alt="Рамка валюты">
             <img class="mining-page__statistic-item-logo-img" src="images/dash_logo.png" title="Dashcoin"
                  alt="dashcoin">
           </div>
@@ -174,6 +176,7 @@
         <div class="mining-page__statistic-panel-column-second">
           <form action="" method="POST" class="mining-page__statistic-item litecoin">
             <div class="mining-page__statistic-item-logo">
+              <img class="mining-page__statistic-item-logo-border" src="images/bitcoin_border_logo.png" alt="Рамка валюты">
               <img class="mining-page__statistic-item-logo-img" src="images/ltc_logo.png" title="Litecoin"
                    alt="litecoin">
             </div>
@@ -221,6 +224,7 @@
           </form>
           <form action="" method="POST" class="mining-page__statistic-item dollar">
             <div class="mining-page__statistic-item-logo">
+              <img class="mining-page__statistic-item-logo-border" src="images/bitcoin_border_logo.png" alt="Рамка валюты">
               <img class="mining-page__statistic-item-logo-img" src="images/dollar_logo.png" title="Dollar"
                    alt="dollar">
             </div>
@@ -271,6 +275,10 @@
     </div>
     <!-- mining-graph -->
     <div class="mining-page__graph">
+      <div class="mining-page__graph-lightning"></div>
+      <div class="mining-page__graph-div-animation-visible clearfix">
+        <img class="mining-page__graph-img-animation" src="images/mining-graph-animation.png" alt="картинка-граф-под-анимацию">
+      </div>
       <img class="mining-page__graph-img" src="images/mining-graph.png" alt="граф-картинка">
       <div class="mining-page__graph-statistics">
         <!-- Цикл значений за уровни -->
@@ -397,6 +405,10 @@
   <script src="js/main.js"></script>
   <script>
       $(document).ready(function() {
+          // адаптив для анимации графика
+          var main_graph = $('.mining-page__graph-img').innerWidth();
+          $('.mining-page__graph-img-animation').css('width', main_graph);
+          // % input-ползунки
           $('.mining-page__statistic-item-input-scroll').on('input keyup', function(e) {
               var value = $(this).val();
               $(this).parent().find('.mining-page__statistic-item-input-scroll-value-span').text(value);
