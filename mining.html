@@ -20,7 +20,6 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="images/head-icon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Description" content="JustCash – уникальная платформа для майнинга таких криптовалют,
     как Bitcoin, Dogecoin, Litecoin, Ethereum, Zcash или USD.">
@@ -349,8 +348,8 @@
   </header>
   <!-- header end -->
   <!-- Modal-registration -->
-  <form action="" method="POST" class="modal fade modal-registration" id="modal-registration" tabindex="-1" role="dialog"
-       aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form action="main.php" method="POST" class="modal fade modal-registration" id="modal-registration" tabindex="-1" role="form"
+        aria-labelledby="modal-registration" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -375,8 +374,8 @@
   </form>
   <!-- Modal-registration end -->
   <!-- Modal-entrance -->
-  <form action="" method="POST" class="modal fade modal-registration" id="modal-entrance" tabindex="-1" role="dialog"
-       aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form action="main.php" method="POST" class="modal fade modal-registration" id="modal-entrance" tabindex="-1" role="form"
+        aria-labelledby="modal-entrance" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -391,8 +390,6 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn modal-registration__modal-button-registration" data-dismiss="modal">Войти</button>
-          <button type="button" class="btn modal-registration__modal-button-enter" data-dismiss="modal"
-                  data-toggle="modal" data-target="#modal-registration">Регистрация</button>
         </div>
       </div>
     </div>
