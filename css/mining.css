@@ -1,5 +1,5 @@
 .mining-page{
-    padding-bottom: 450px;
+    padding-bottom: 500px;
     background: url("../images/calculator-bg.jpg") no-repeat;
     background-size: cover;
 }
@@ -99,8 +99,8 @@
 
 .mining-page__graph{
     position: absolute;
-    top: 827px;
-    left: 138px;
+    top: 790px;
+    left: 0;
     color: #fff;
     font-size: 18px;
 }
@@ -343,7 +343,7 @@
 .mining-page__statistic-panel{
     position: absolute;
     top: 255px;
-    left: 818px;
+    left: 645px;
     display: inline-block;
 }
 
@@ -674,12 +674,12 @@
 
 @media (max-width: 1900px){
     .mining-page__statistic-panel {
-        left: 750px;
+        left: 580px;
     }
     .mining-page__graph-img{
         width: auto;
         height: auto;
-        max-width: 100%;
+        max-width: calc(100vw - 30px);
         max-height: 100%;
         overflow: hidden;
     }
@@ -738,18 +738,27 @@
 }
 
 @media (max-width: 1830px){
+    .mining-page .main-page__form-view {
+        padding: 108px 0 0;
+    }
+    .calculator-page__table {
+        margin: 6px 0 0;
+    }
+    .mining-page__graph-img{
+        max-width: calc(100vw - 220px);
+    }
     .mining-page{
         padding-bottom: 750px;
     }
     .mining-page__statistic-panel {
-        left: 760px;
+        left: 600px;
     }
     .mining-page__statistic-panel-column-second {
-        top: 325px;
-        left: -525px;
+        top: 300px;
+        left: -596px;
     }
     .mining-page__graph {
-        top: 1100px;
+        top: 1080px;
     }
     .mining-page__graph-statistics-item{
         position: absolute;
@@ -867,8 +876,8 @@
 
 @media (max-width: 1400px){
     .mining-page__statistic-panel{
-        top: 575px;
-        left: 230px;
+        top: 525px;
+        left: 0;
     }
     .mining-page__statistic-panel-column-second {
         top: 0;
@@ -878,8 +887,8 @@
 
 @media (max-width: 1200px){
     .mining-page__statistic-panel{
-        top: 540px;
-        left: 165px;
+        top: 500px;
+        left: 0;
     }
 }
 

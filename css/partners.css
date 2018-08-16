@@ -123,6 +123,9 @@
 }
 
 @media (max-width: 1800px){
+    .partners-page .main-page__form-view {
+        padding: 110px 0 0;
+    }
     .circles__circle-item_first-circle{
         left: 64%;
     }

@@ -9,18 +9,138 @@
 }
 
 @media (max-width: 1790px){
-    .lightning__graph-border,
-    .lightning__graph-top-line,
-    .lightning__graph-bottom-line{
-        display: none;
-    }
     .lightning__laptop-graph-top,
     .lightning__laptop-graph-bottom{
         display: none;
     }
-    .falling-object__falling-object-room {
+    .top-header {
+        right: 53px;
+    }
+    .falling-object__falling-object-room.office.pulsation{
         width: 90%;
-        height: auto;
+    }
+    .main-page__form-view {
+        padding: 108px 0 0;
+    }
+    @keyframes graph-border {
+        0%, 100% {
+            opacity: .6;
+            top: 577px;
+            left: 629px
+        }
+        33% {
+            top: 730px;
+            left: 893px
+        }
+        50% {
+            top: 930px;
+            left: 893px
+        }
+        83% {
+            top: 779px;
+            left: 629px
+        }
+    }
+    @keyframes graph-top-line {
+        0% {
+            opacity: 0;
+            top: 749px;
+            left: 635px;
+            width: 1px;
+            height: 1px
+        }
+        15% {
+            opacity: .7;
+            top: 715px;
+            left: 689px;
+            width: 5px;
+            height: 5px
+        }
+        30% {
+            opacity: .9;
+            top: 707px;
+            left: 724px;
+            width: 7px;
+            height: 7px
+        }
+        45% {
+            top: 717px;
+            left: 747px
+        }
+        70% {
+            top: 780px;
+            left: 794px
+        }
+        85% {
+            top: 792px;
+            left: 832px
+        }
+        100% {
+            opacity: .9;
+            top: 749px;
+            left: 883px;
+            width: 7px;
+            height: 7px
+        }
+    }
+    @keyframes graph-bottom-line {
+        0% {
+            opacity: 0;
+            top: 749px;
+            left: 635px;
+            width: 1px;
+            height: 1px
+        }
+        12% {
+            opacity: .7;
+            top: 738px;
+            left: 670px;
+            width: 4px;
+            height: 4px
+        }
+        23% {
+            opacity: .9;
+            top: 779px;
+            left: 698px;
+            width: 7px;
+            height: 7px
+        }
+        33% {
+            top: 785px;
+            left: 719px
+        }
+        44% {
+            top: 752px;
+            left: 742px
+        }
+        56% {
+            top: 758px;
+            left: 761px
+        }
+        67% {
+            top: 795px;
+            left: 773px
+        }
+        79%, 86% {
+            top: 816px;
+            left: 816px
+        }
+        90% {
+            top: 815px;
+            left: 842px
+        }
+        100% {
+            opacity: .9;
+            top: 846px;
+            left: 868px;
+            width: 7px;
+            height: 7px
+        }
+    }
+    .falling-object-room,
+    .lightning__factory-shine,
+    .lightning__factory-shine-pipes{
+        left: 590px;
     }
     .office.pulsation{
         -moz-animation-name: pulsation ;
@@ -35,8 +155,7 @@
             width: 80%;
         }
     }
-    .lightning__factory-shine,
-    .lightning__factory-shine-pipes,
+    .falling-object-reactor,
     .lightning__reactor-shine{
         display: none;
     }
@@ -44,7 +163,7 @@
 
 @media (max-width: 1650px){
     .main-page__animation{
-        width: 90%;
+        /*width: 90%;*/
     }
 }
 
@@ -55,6 +174,10 @@
 
     .falling-object {
         top: 330px;
+    }
+
+    .falling-object.falling-object-room{
+        top: 210px;
     }
 
     @-webkit-keyframes falling-object {
@@ -73,6 +196,19 @@
     }
 }
 
+@media (max-width: 1450px){
+    .falling-object,
+    .falling-object-room,
+    .lightning__factory-shine,
+    .lightning__factory-shine-pipes,
+    .lightning__graph-border,
+    .lightning__graph-border_duplicate,
+    .lightning__graph-top-line,
+    .lightning__graph-bottom-line{
+        display: none;
+    }
+}
+
 @media (max-width: 1400px){
     .falling-object {
         display: none;
@@ -86,7 +222,7 @@
         background: #272842;
     }
     .main-page__form-view {
-        padding: 50px 0 0 50px;
+        padding: 50px 0 0;
     }
     .main-page__form-view-head {
         padding: 0 0 30px 0;

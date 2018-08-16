@@ -43,7 +43,9 @@
 }
 
 .statistic-page__circles-disneyland{
-
+    position: relative;
+    top: -400px;
+    left: -171px;
 }
 
 .statistic-page__circles-item{
@@ -555,10 +557,20 @@
         left: 375px;
     }
 }
+@media (max-width: 1730px){
+    .statistic-page .main-page__form-view {
+        padding: 108px 0 0;
+    }
+}
 
 @media (max-width: 1200px){
     .statistic-page{
         padding-bottom: 230px !important;
+    }
+    .statistic-page__circles-disneyland{
+        position: relative;
+        top: 0;
+        left: 0;
     }
     .main-page__content{
         width: 80%;

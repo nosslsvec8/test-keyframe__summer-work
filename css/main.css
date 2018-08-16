@@ -18,6 +18,8 @@ a,a:hover,a:visited,a:link{
 
 .main-page__content{
     display: inline-block;
+    position: relative;
+    z-index: 2;
 }
 
 .main-page__form-view{
@@ -108,6 +110,10 @@ a,a:hover,a:visited,a:link{
 
 .main-page__header-item:hover{
     transition: color 1s;
+}
+
+.main-page__header-item_active{
+    color: #007bff;
 }
 
 .main-page__header-background{
@@ -227,6 +233,10 @@ a,a:hover,a:visited,a:link{
     font-family: 'GothaProMed';
     padding-left: 29px;
     transition: all 1s;
+}
+
+.top-header__top-header-link_active{
+    color: #007bff;
 }
 
 .main-page__header-button{

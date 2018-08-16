@@ -99,15 +99,15 @@
 .faq-page__right-items-block{
     position: absolute;
     top: 300px;
-    left: 960px;
+    left: 775px;
 }
 
 @media (max-width: 1850px){
     .faq-page{
-        padding-left: 100px;
+        /*padding-left: 100px;*/
     }
     .faq-page__right-items-block {
-        left: 850px;
+        left: 760px;
     }
 }
 
