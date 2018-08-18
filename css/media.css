@@ -6,6 +6,10 @@
     .main-page__animation{
         width: auto;
     }
+    .about-page .falling-object {
+        width: 800px;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 1790px){
@@ -14,10 +18,13 @@
         display: none;
     }
     .top-header {
-        right: 53px;
+        right: inherit;
+        width: 1400px;
+        text-align: left;
+        padding-left: 650px;
     }
     .falling-object__falling-object-room.office.pulsation{
-        width: 90%;
+        /*width: 90%;*/
     }
     .main-page__form-view {
         padding: 108px 0 0;
@@ -142,19 +149,19 @@
     .lightning__factory-shine-pipes{
         left: 590px;
     }
-    .office.pulsation{
-        -moz-animation-name: pulsation ;
-        -webkit-animation-name: pulsation ;
-        animation-name: pulsation;
-    }
-    @keyframes pulsation {
-        from {
-            width: 90%;
-        }
-        to {
-            width: 80%;
-        }
-    }
+    /*.office.pulsation{*/
+        /*-moz-animation-name: pulsation ;*/
+        /*-webkit-animation-name: pulsation ;*/
+        /*animation-name: pulsation;*/
+    /*}*/
+    /*@keyframes pulsation {*/
+        /*from {*/
+            /*width: 90%;*/
+        /*}*/
+        /*to {*/
+            /*width: 80%;*/
+        /*}*/
+    /*}*/
     .falling-object-reactor,
     .lightning__reactor-shine{
         display: none;
@@ -169,7 +176,13 @@
 
 @media (max-width: 1600px){
     .falling-object.falling-object-reactor{
-        display: none;
+        /*display: none;*/
+    }
+    .main-page{
+        width: 1600px;
+        height: 1400px;
+        overflow: scroll;
+        padding-bottom: 500px;
     }
 
     .falling-object {
@@ -205,21 +218,21 @@
     .lightning__graph-border_duplicate,
     .lightning__graph-top-line,
     .lightning__graph-bottom-line{
-        display: none;
+        /*display: none;*/
     }
 }
 
 @media (max-width: 1400px){
     .falling-object {
-        display: none;
+        /*display: none;*/
     }
 }
 
 /* lg */
 @media (max-width: 1200px){
     .main-page, .about-page{
-        padding: 30px 0 100px 100px;
-        background: #272842;
+        /*padding: 30px 0 100px 100px;*/
+        /*background: #272842;*/
     }
     .main-page__form-view {
         padding: 50px 0 0;
@@ -254,18 +267,6 @@
     }
     .top-header {
         top: 60px;
-        right: 50px;
-    }
-}
-
-/* md */
-@media (max-width: 992px){
-
-}
-
-/* sm */
-@media (max-width: 768px){
-    .main-page__header{
-        display: none;
+        /*right: 50px;*/
     }
 }
